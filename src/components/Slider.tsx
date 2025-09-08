@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 const slides = [
     {
         id: 1,
-        title: "Summer Sail Collections",
+        title: "Summer Sale Collections",
         description: "Sale! up to 50% off!",
         img: "https://images.pexels.com/photos/852860/pexels-photo-852860.jpeg",
         url: "/",
@@ -15,7 +15,7 @@ const slides = [
     },
     {
         id: 2,
-        title: "Winter Sail Collections",
+        title: "Winter Sale Collections",
         description: "Sale! up to 50% off!",
         img: "https://images.pexels.com/photos/1381553/pexels-photo-1381553.jpeg",
         url: "/",
@@ -23,7 +23,7 @@ const slides = [
     },
     {
         id: 3,
-        title: "Spring Sail Collections",
+        title: "Spring Sale Collections",
         description: "Sale! up to 50% off!",
         img: "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg",
         url: "/",
