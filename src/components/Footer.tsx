@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row justify-between gap-24">
                 {/* Left */}
                 <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
-                    <Link href="/"><div className="text-2xl tracking-wide">Shop</div></Link>
+                    <Link href="/"><div className="text-2xl tracking-wide">MimCookThee</div></Link>
                     <p>3252 Winding Way, Central Plaza, Willowbrook, CA 90210, United States</p>
                     <span className="font-semibold">hello@mimcookthiii.dev</span>
                     <span className="font-semibold">+1 234 567 890</span>

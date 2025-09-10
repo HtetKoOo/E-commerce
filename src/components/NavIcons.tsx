@@ -39,15 +39,15 @@ const NavIcons = () => {
                 </div>
             )}
             <Image src="/notification.png" alt="" width={22} height={22} />
-            <Image
-                src="/cart.png"
-                alt=""
-                width={22}
-                height={22}
-                className="cursor-pointer relative"
-                onClick={() => setIsCartOpen((prev) => !prev)}
-            />
-            <div className="absolute -top-4 -right-4 w-6 h-6 bg-shop rounded-full text-white text-sm flex items-center justify-center">2</div>
+            <div className="cursor-pointer relative" onClick={() => setIsCartOpen((prev) => !prev)}>
+                <Image
+                    src="/cart.png"
+                    alt=""
+                    width={22}
+                    height={22}
+                />
+                <div className="absolute -top-4 -right-4 w-6 h-6 bg-shop rounded-full text-white text-sm flex items-center justify-center">2</div>
+            </div>
             {isCartOpen && <CartModal />}
         </div>
     );
