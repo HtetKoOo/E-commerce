@@ -12,16 +12,6 @@ const NavIcons = () => {
 
     const router = useRouter();
 
-    // Temporary
-    const isLoggedIn = false;
-
-    const handleProfile = () => {
-        if (!isLoggedIn) {
-            router.push("/login");
-        }
-        setIsProfileOpen((prev) => !prev);
-    };
-
     return (
         <div className="flex items-center gap-4 xl:gap-6 relative">
             <Image
@@ -30,7 +20,7 @@ const NavIcons = () => {
                 width={22}
                 height={22}
                 className="cursor-pointer"
-                onClick={handleProfile}
+                
             />
             {isProfileOpen && (
                 <div className="absolute top-12 left-0 p-4 rounded-md text-sm shadow-[0_3px_10px_rgb(0,0,0,0.2)] z-20">

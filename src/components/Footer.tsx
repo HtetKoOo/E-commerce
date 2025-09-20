@@ -8,9 +8,9 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row justify-between gap-24">
                 {/* Left */}
                 <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
-                    <Link href="/"><div className="text-2xl tracking-wide">MimCookThee</div></Link>
+                    <Link href="/"><div className="text-2xl tracking-wide">LARA</div></Link>
                     <p>3252 Winding Way, Central Plaza, Willowbrook, CA 90210, United States</p>
-                    <span className="font-semibold">hello@mimcookthiii.dev</span>
+                    <span className="font-semibold">hello@lara.dev</span>
                     <span className="font-semibold">+1 234 567 890</span>
                     <div className="flex gap-6">
                         <Image src="/facebook.png" alt="" width={16} height={16} />
@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
             {/* Bottom */}
             <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
-                <div className="">© {new Date().getFullYear()} MimCookThee Shop</div>
+                <div className="">© {new Date().getFullYear()} LARA Shop</div>
                 <div className="flex flex-col gap-8 md:flex-row">
                     <div className="">
                         <span className="text-gray-500 mr-4">Language</span>

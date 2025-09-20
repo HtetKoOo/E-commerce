@@ -6,19 +6,19 @@ import { useState } from "react";
 const images = [
     {
         id: 1,
-        url: "https://images.pexels.com/photos/1207918/pexels-photo-1207918.jpeg",
+        url: "https://images.pexels.com/photos/3353621/pexels-photo-3353621.jpeg",
     },
     {
         id: 2,
-        url: "https://images.pexels.com/photos/1749303/pexels-photo-1749303.jpeg",
+        url: "https://images.pexels.com/photos/2002717/pexels-photo-2002717.jpeg",
     },
     {
         id: 3,
-        url: "https://images.pexels.com/photos/704813/pexels-photo-704813.jpeg",
+        url: "https://images.pexels.com/photos/9218538/pexels-photo-9218538.jpeg",
     },
     {
         id: 4,
-        url: "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg",
+        url: "https://images.pexels.com/photos/9558761/pexels-photo-9558761.jpeg",
     },
 ]
 

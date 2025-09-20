@@ -15,7 +15,7 @@ const CartModal = () => {
                     <div className="flex flex-col gap-8">
                         {/* Items */}
                         <div className="flex gap-4">
-                            <Image src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg" alt="" width={72} height={96} className="object-cover rounded-md" />
+                                <Image src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg" alt="" width={72} height={96} className="object-cover rounded-md" />
                             <div className="flex flex-col justify-between w-full">
                                 {/* Top */}
                                 <div className="">
@@ -36,7 +36,7 @@ const CartModal = () => {
                         </div>
 
                         <div className="flex gap-4">
-                            <Image src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg" alt="" width={72} height={96} className="object-cover rounded-md" />
+                                <Image src="https://images.pexels.com/photos/2850487/pexels-photo-2850487.jpeg" alt="" width={72} height={96} className="object-cover rounded-md" />
                             <div className="flex flex-col justify-between w-full">
                                 {/* Top */}
                                 <div className="">
